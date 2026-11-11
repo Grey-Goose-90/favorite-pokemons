@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Our Favorite Pokémon</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;700&family=Inter:wght@400;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <header class="hero">
+    <div class="hero__inner">
+      <p class="hero__eyebrow">A fan page</p>
+      <h1>Our Favorite Pokémon</h1>
+      <p class="hero__lead">Types, evolutions, anime trainers, debuts, fun facts and matchups for eight Pokémon picked by three friends.</p>
+      <nav class="hero__nav">
+        <a href="#mine">My Favorites</a>
+        <a href="#jessi">Jessi's Picks</a>
+        <a href="#aldo">Aldo's Picks</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- ============ MY FAVORITES ============ -->
+    <section id="mine" class="group">
+      <h2 class="group__title">My Favorites</h2>
+      <div class="grid">
+
+        <!-- Garchomp -->
+        <article class="card" style="--accent: var(--dragon)">
+          <div class="card__top">
+            <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/445.png" alt="Garchomp" loading="lazy" />
+            <div>
+              <span class="dex">#0445</span>
+              <h3>Garchomp</h3>
+              <div class="types"><span class="type dragon">Dragon</span><span class="type ground">Ground</span></div>
+            </div>
+          </div>
+          <dl class="info">
+            <dt>Evolutions</dt>
+            <dd class="evo">Gible <span>→</span> Gabite <span>→</span> <b>Garchomp</b> <span>→</span> Mega Garchomp</dd>
+            <dt>Anime trainers</dt>
+            <dd>Cynthia (her signature ace, Sinnoh Champion) · Ash raised a Gible in Diamond &amp; Pearl</dd>
+            <dt>First appearance</dt>
+            <dd>Games: Pokémon Diamond &amp; Pearl (2006) · Anime: Diamond &amp; Pearl series, as Cynthia's partner</dd>
+            <dt>Fun facts</dt>
+            <dd>
+              <ul>
+                <li>A pseudo-legendary, with a base stat total of 600.</li>
+                <li>Its design mixes a hammerhead shark and a jet plane, and the Pokédex says it flies as fast as one.</li>
+                <li>Hidden Ability <em>Rough Skin</em> damages attackers that touch it.</li>
+              </ul>
+            </dd>
+          </dl>
+          <div class="matchups">
+            <div class="strong"><h4>Strong against</h4><p>Dragon, Fire, Electric, Poison, Rock, Steel</p></div>
+            <div class="weak"><h4>Weak against</h4><p><b>Ice ×4</b>, Dragon, Fairy</p></div>
+          </div>
+          <p class="note">Immune to Electric · Resists Fire, Poison, Rock</p>
+        </article>
+
+        <!-- Rayquaza -->
+        <article class="card" style="--accent: var(--flying)">
+          <div class="card__top">
+            <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/384.png" alt="Rayquaza" loading="lazy" />
+            <div>
+              <span class="dex">#0384 · Legendary</span>
+              <h3>Rayquaza</h3>
+              <div class="types"><span class="type dragon">Dragon</span><span class="type flying">Flying</span></div>
+            </div>
+          </div>
+          <dl class="info">
+            <dt>Evolutions</dt>
+            <dd class="evo"><b>Rayquaza</b> (no evolutions) <span>→</span> Mega Rayquaza</dd>
+            <dt>Anime trainers</dt>
+            <dd>None — a wild Legendary. Ash and friends encounter it, but no main-series trainer owns one.</dd>
+            <dt>First appearance</dt>
+            <dd>Games: Pokémon Ruby &amp; Sapphire (2002) · Anime: <em>Pokémon: Destiny Deoxys</em> (2004 movie)</dd>
+            <dt>Fun facts</dt>
+            <dd>
+              <ul>
+                <li>Lives in the ozone layer and feeds on water and particles in the atmosphere.</li>
+                <li>Settles the fight between Groudon and Kyogre.</li>
+                <li>Mega-evolves by learning <em>Dragon Ascent</em> — no Mega Stone needed.</li>
+              </ul>
+            </dd>
+          </dl>
+          <div class="matchups">
+            <div class="strong"><h4>Strong against</h4><p>Dragon, Grass, Fighting, Bug</p></div>
+            <div class="weak"><h4>Weak against</h4><p><b>Ice ×4</b>, Rock, Dragon, Fairy</p></div>
+          </div>
+          <p class="note">Immune to Ground · Resists Grass ×¼, Fire, Water, Fighting, Bug</p>
+        </article>
+
+        <!-- Greninja -->
+        <article class="card" style="--accent: var(--water)">
+          <div class="card__top">
+            <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/658.png" alt="Greninja" loading="lazy" />
+            <div>
+              <span class="dex">#0658</span>
+              <h3>Greninja</h3>
+              <div class="types"><span class="type water">Water</span><span class="type dark">Dark</span></div>
+            </div>
+          </div>
+          <dl class="info">
+            <dt>Evolutions</dt>
+            <dd class="evo">Froakie <span>→</span> Frogadier <span>→</span> <b>Greninja</b> <span>→</span> Ash-Greninja</dd>
+            <dt>Anime trainers</dt>
+            <dd>Ash Ketchum (XY series), whose bond with it created the unique Ash-Greninja form</dd>
+            <dt>First appearance</dt>
+            <dd>Games: Pokémon X &amp; Y (2013) · Anime: Pokémon the Series: XY, as Ash's Froakie</dd>
+            <dt>Fun facts</dt>
+            <dd>
+              <ul>
+                <li>Its "scarf" is actually its long tongue.</li>
+                <li>Throws shurikens made of compressed water.</li>
+                <li>Hidden Ability <em>Protean</em> changes its type to match the move it uses.</li>
+              </ul>
+            </dd>
+          </dl>
+          <div class="matchups">
+            <div class="strong"><h4>Strong against</h4><p>Fire, Ground, Rock, Psychic, Ghost</p></div>
+            <div class="weak"><h4>Weak against</h4><p>Grass, Electric, Fighting, Bug, Fairy</p></div>
+          </div>
+          <p class="note">Immune to Psychic · Resists Fire, Water, Ice, Steel, Ghost, Dark</p>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- ============ JESSI ============ -->
+    <section id="jessi" class="group">
+      <h2 class="group__title">Jessi's Picks</h2>
+      <div class="grid">
+
+        <!-- Articuno -->
+        <article class="card" style="--accent: var(--ice)">
+          <div class="card__top">
+            <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/144.png" alt="Articuno" loading="lazy" />
+            <div>
+              <span class="dex">#0144 · Legendary</span>
+              <h3>Articuno</h3>
+              <div class="types"><span class="type ice">Ice</span><span class="type flying">Flying</span></div>
+            </div>
+          </div>
+          <dl class="info">
+            <dt>Evolutions</dt>
+            <dd class="evo"><b>Articuno</b> (no evolutions) · Regional form: Galarian Articuno (Psychic/Flying)</dd>
+            <dt>Anime trainers</dt>
+            <dd>None — a wild Legendary bird, one of the three Legendary birds of Kanto</dd>
+            <dt>First appearance</dt>
+            <dd>Games: Pokémon Red &amp; Green / Blue (1996) · Anime: <em>Pokémon the Movie 2000</em></dd>
+            <dt>Fun facts</dt>
+            <dd>
+              <ul>
+                <li>Said to appear before travelers lost in icy mountains.</li>
+                <li>Can create blizzards just by flapping its wings.</li>
+                <li>Part of the trio with Zapdos and Moltres.</li>
+              </ul>
+            </dd>
+          </dl>
+          <div class="matchups">
+            <div class="strong"><h4>Strong against</h4><p>Grass, Ground, Flying, Dragon, Fighting, Bug</p></div>
+            <div class="weak"><h4>Weak against</h4><p><b>Rock ×4</b>, Fire, Electric, Steel</p></div>
+          </div>
+          <p class="note">Immune to Ground · Resists Grass, Bug</p>
+        </article>
+
+        <!-- Pichu -->
+        <article class="card" style="--accent: var(--electric)">
+          <div class="card__top">
+            <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/172.png" alt="Pichu" loading="lazy" />
+            <div>
+              <span class="dex">#0172 · Baby</span>
+              <h3>Pichu</h3>
+              <div class="types"><span class="type electric">Electric</span></div>
+            </div>
+          </div>
+          <dl class="info">
+            <dt>Evolutions</dt>
+            <dd class="evo"><b>Pichu</b> <span>→</span> Pikachu <span>→</span> Raichu / Alolan Raichu</dd>
+            <dt>Anime trainers</dt>
+            <dd>Mostly wild — the Pichu Brothers star in their own anime shorts and later meet Ash</dd>
+            <dt>First appearance</dt>
+            <dd>Games: Pokémon Gold &amp; Silver (1999) · Anime: the <em>Pikachu &amp; Pichu</em> short (2000)</dd>
+            <dt>Fun facts</dt>
+            <dd>
+              <ul>
+                <li>Evolves into Pikachu through high friendship.</li>
+                <li>Too small to store electricity, it often shocks itself.</li>
+                <li>In Super Smash Bros., its electric moves damage Pichu too.</li>
+              </ul>
+            </dd>
+          </dl>
+          <div class="matchups">
+            <div class="strong"><h4>Strong against</h4><p>Water, Flying</p></div>
+            <div class="weak"><h4>Weak against</h4><p>Ground</p></div>
+          </div>
+          <p class="note">Resists Electric, Flying, Steel</p>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- ============ ALDO ============ -->
+    <section id="aldo" class="group">
+      <h2 class="group__title">Aldo's Picks</h2>
+      <div class="grid">
+
+        <!-- Mimikyu -->
+        <article class="card" style="--accent: var(--ghost)">
+          <div class="card__top">
+            <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/778.png" alt="Mimikyu" loading="lazy" />
+            <div>
+              <span class="dex">#0778</span>
+              <h3>Mimikyu</h3>
+              <div class="types"><span class="type ghost">Ghost</span><span class="type fairy">Fairy</span></div>
+            </div>
+          </div>
+          <dl class="info">
+            <dt>Evolutions</dt>
+            <dd class="evo"><b>Mimikyu</b> (no evolutions)</dd>
+            <dt>Anime trainers</dt>
+            <dd>Jessie of Team Rocket (Sun &amp; Moon series)</dd>
+            <dt>First appearance</dt>
+            <dd>Games: Pokémon Sun &amp; Moon (2016) · Anime: Pokémon the Series: Sun &amp; Moon, with Jessie</dd>
+            <dt>Fun facts</dt>
+            <dd>
+              <ul>
+                <li>Wears a homemade Pikachu disguise because it is lonely and wants to be loved.</li>
+                <li>Legend says anyone who sees under its rag falls ill.</li>
+                <li>Its <em>Disguise</em> ability blocks the first hit it takes.</li>
+              </ul>
+            </dd>
+          </dl>
+          <div class="matchups">
+            <div class="strong"><h4>Strong against</h4><p>Ghost, Psychic, Fighting, Dragon, Dark</p></div>
+            <div class="weak"><h4>Weak against</h4><p>Ghost, Steel</p></div>
+          </div>
+          <p class="note">Immune to Normal, Fighting, Dragon · Resists Bug ×¼</p>
+        </article>
+
+        <!-- Jolteon -->
+        <article class="card" style="--accent: var(--electric)">
+          <div class="card__top">
+            <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/135.png" alt="Jolteon" loading="lazy" />
+            <div>
+              <span class="dex">#0135</span>
+              <h3>Jolteon</h3>
+              <div class="types"><span class="type electric">Electric</span></div>
+            </div>
+          </div>
+          <dl class="info">
+            <dt>Evolutions</dt>
+            <dd class="evo">Eevee <span>→</span> <b>Jolteon</b> (with a Thunder Stone)</dd>
+            <dt>Anime trainers</dt>
+            <dd>Sparky of the Eevee Brothers · Virgil (Eevee specialist, Unova)</dd>
+            <dt>First appearance</dt>
+            <dd>Games: Pokémon Red &amp; Green / Blue (1996) · Anime: "The Battling Eevee Brothers" (Indigo League)</dd>
+            <dt>Fun facts</dt>
+            <dd>
+              <ul>
+                <li>One of the three original Eeveelutions, alongside Vaporeon and Flareon.</li>
+                <li>Its fur bristles into sharp needles when it's angry or scared.</li>
+                <li>Base Speed of 130 — among the fastest Pokémon of Gen I.</li>
+              </ul>
+            </dd>
+          </dl>
+          <div class="matchups">
+            <div class="strong"><h4>Strong against</h4><p>Water, Flying</p></div>
+            <div class="weak"><h4>Weak against</h4><p>Ground</p></div>
+          </div>
+          <p class="note">Resists Electric, Flying, Steel</p>
+        </article>
+
+        <!-- Ceruledge -->
+        <article class="card" style="--accent: var(--fire)">
+          <div class="card__top">
+            <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/937.png" alt="Ceruledge" loading="lazy" />
+            <div>
+              <span class="dex">#0937</span>
+              <h3>Ceruledge</h3>
+              <div class="types"><span class="type fire">Fire</span><span class="type ghost">Ghost</span></div>
+            </div>
+          </div>
+          <dl class="info">
+            <dt>Evolutions</dt>
+            <dd class="evo">Charcadet <span>→</span> <b>Ceruledge</b> (with Malicious Armor)</dd>
+            <dt>Anime trainers</dt>
+            <dd>Amethio of the Explorers (Pokémon Horizons)</dd>
+            <dt>First appearance</dt>
+            <dd>Games: Pokémon Violet (2022, version exclusive) · Anime: Pokémon Horizons: The Series (2023)</dd>
+            <dt>Fun facts</dt>
+            <dd>
+              <ul>
+                <li>Its blade-arms are said to come from the armor of fallen warriors.</li>
+                <li>Signature move <em>Bitter Blade</em> heals it by draining the target.</li>
+                <li>Charcadet becomes Armarouge in Scarlet instead.</li>
+              </ul>
+            </dd>
+          </dl>
+          <div class="matchups">
+            <div class="strong"><h4>Strong against</h4><p>Grass, Ice, Bug, Steel, Psychic, Ghost</p></div>
+            <div class="weak"><h4>Weak against</h4><p>Water, Ground, Rock, Ghost, Dark</p></div>
+          </div>
+          <p class="note">Immune to Normal, Fighting · Resists Bug ×¼, Fire, Grass, Ice, Poison, Steel, Fairy</p>
+        </article>
+
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    Made with ❤️ by Pokémon fans · Pokémon and all related names are trademarks of Nintendo, Game Freak and Creatures. Artwork via PokeAPI.
+  </footer>
+
+</body>
+</html>
