@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- Wiki images only load when no referrer is sent -->
+  <meta name="referrer" content="no-referrer" />
+  <title>Greninja · Our Favorite Pokémon</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;700&family=Inter:wght@400;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="../styles.css" />
+</head>
+<body class="detail" style="--accent: var(--water)">
+
+  <header class="detail-hero">
+    <div class="detail-hero__inner">
+      <a class="back" href="../index.html">← All Pokémon</a>
+      <div class="detail-hero__main">
+        <img class="detail-hero__art" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/658.png" alt="Greninja" loading="lazy" />
+        <div>
+          <span class="dex">#0658</span>
+          <h1>Greninja</h1>
+          <div class="types"><span class="type water">Water</span><span class="type dark">Dark</span></div>
+        </div>
+      </div>
+      <nav class="detail-nav">
+        <a href="#evolution">Evolution line</a>
+        <a href="#trainers">Trainers</a>
+        <a href="#debut">First appearances</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="detail-main">
+
+    <section id="evolution" class="panel">
+      <h2>Evolution Line</h2>
+      <div class="evo-line"><figure class="evo-stage"><img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/656.png" alt="Froakie" loading="lazy" /><figcaption>Froakie</figcaption></figure><div class="evo-arrow"><span>Lv. 16</span></div><figure class="evo-stage"><img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/657.png" alt="Frogadier" loading="lazy" /><figcaption>Frogadier</figcaption></figure><div class="evo-arrow"><span>Lv. 36</span></div><figure class="evo-stage evo-stage--current"><img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/658.png" alt="Greninja" loading="lazy" /><figcaption>Greninja</figcaption></figure><div class="evo-arrow"><span>Battle Bond</span></div><figure class="evo-stage"><img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10117.png" alt="Ash-Greninja" loading="lazy" /><figcaption>Ash-Greninja</figcaption></figure></div>
+      
+    </section>
+
+    <section id="trainers" class="panel">
+      <h2>Trainers in the Anime</h2>
+      
+        <article class="trainer">
+          <div class="trainer__portrait"><img src="https://static.wikia.nocookie.net/pokemon/images/7/76/Ash_anime_The_Beginning.png/revision/latest?cb=20110507193331" alt="Ash Ketchum" loading="lazy" /></div>
+          <div class="trainer__body">
+            <h3>Ash Ketchum</h3>
+            <p class="trainer__role">Main protagonist, Pokémon the Series (1997–2023)</p>
+            <p>Ash met Froakie in the first episode of XY, and it evolved all the way to Greninja. Their bond created Ash-Greninja, a transformation unique to them. Greninja stayed behind in Kalos to help Zygarde protect the region.</p>
+          </div>
+          <figure class="trainer__partner"><img src="https://static.wikia.nocookie.net/pokemon/images/9/90/Ash_and_Greninja.png/revision/latest?cb=20200812184056" alt="Ash and Greninja" loading="lazy" /><figcaption>Ash and Greninja</figcaption></figure>
+        </article>
+    </section>
+
+    <section id="debut" class="panel">
+      <h2>First Appearances</h2>
+
+      <h3 class="sub">In the animated series</h3>
+      <div class="gallery"><figure class="shot"><img src="https://static.wikia.nocookie.net/pokemon/images/c/c8/XY001_TC_JA.png/revision/latest?cb=20200417174015" alt="XY001 “Kalos, Where Dreams and Adventures Begin!” (Japanese title card)" loading="lazy" /><figcaption>XY001 “Kalos, Where Dreams and Adventures Begin!” (Japanese title card)</figcaption></figure><figure class="shot"><img src="https://static.wikia.nocookie.net/pokemon/images/a/a8/XY001_20.png/revision/latest?cb=20160504210303" alt="Scene from XY001" loading="lazy" /><figcaption>Scene from XY001</figcaption></figure><figure class="shot"><img src="https://static.wikia.nocookie.net/pokemon/images/e/e2/Ash%27s_Ash-Greninja.png/revision/latest?cb=20170523121310" alt="Ash-Greninja" loading="lazy" /><figcaption>Ash-Greninja</figcaption></figure></div>
+
+      <h3 class="sub">In the video games</h3>
+      <p class="muted">Greninja debuted in Generation VI, as the final evolution of Froakie, the Water-type starter of Kalos.</p>
+      <div class="gallery gallery--games">
+        <figure class="boxart"><img src="https://static.wikia.nocookie.net/pokemon/images/4/45/Pokemon_X_Version_Boxart.png/revision/latest?cb=20201120113848" alt="Pokémon X (2013)" loading="lazy" /><figcaption>Pokémon X (2013)</figcaption></figure><figure class="boxart"><img src="https://static.wikia.nocookie.net/pokemon/images/c/c4/Pokemon_Y_Version_Boxart.png/revision/latest?cb=20201120114053" alt="Pokémon Y (2013)" loading="lazy" /><figcaption>Pokémon Y (2013)</figcaption></figure>
+        <figure class="boxart sprite"><img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/658.png" alt="In-game model from X &amp; Y" loading="lazy" /><figcaption>In-game model from X &amp; Y</figcaption></figure>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    Pokémon and all related names are trademarks of Nintendo, Game Freak and Creatures.
+    Artwork via <a href="https://pokeapi.co">PokeAPI</a> · Anime and box-art images via the
+    <a href="https://pokemon.fandom.com">Pokémon Wiki (Fandom)</a>.
+  </footer>
+
+</body>
+</html>
