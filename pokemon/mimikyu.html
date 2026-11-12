@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- Wiki images only load when no referrer is sent -->
+  <meta name="referrer" content="no-referrer" />
+  <title>Mimikyu · Our Favorite Pokémon</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;700&family=Inter:wght@400;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="../styles.css" />
+</head>
+<body class="detail" style="--accent: var(--ghost)">
+
+  <header class="detail-hero">
+    <div class="detail-hero__inner">
+      <a class="back" href="../index.html">← All Pokémon</a>
+      <div class="detail-hero__main">
+        <img class="detail-hero__art" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/778.png" alt="Mimikyu" loading="lazy" />
+        <div>
+          <span class="dex">#0778</span>
+          <h1>Mimikyu</h1>
+          <div class="types"><span class="type ghost">Ghost</span><span class="type fairy">Fairy</span></div>
+        </div>
+      </div>
+      <nav class="detail-nav">
+        <a href="#evolution">Evolution line</a>
+        <a href="#trainers">Trainers</a>
+        <a href="#debut">First appearances</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="detail-main">
+
+    <section id="evolution" class="panel">
+      <h2>Evolution Line</h2>
+      <div class="evo-line"><figure class="evo-stage evo-stage--current"><img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/778.png" alt="Mimikyu" loading="lazy" /><figcaption>Mimikyu</figcaption></figure></div>
+      <p class="muted">Mimikyu has no evolutions.</p>
+    </section>
+
+    <section id="trainers" class="panel">
+      <h2>Trainers in the Anime</h2>
+      
+        <article class="trainer">
+          <div class="trainer__portrait"><img src="https://static.wikia.nocookie.net/pokemon/images/a/a3/Jessie_anime_Sun_and_Moon.png/revision/latest?cb=20181129161917" alt="Jessie" loading="lazy" /></div>
+          <div class="trainer__body">
+            <h3>Jessie</h3>
+            <p class="trainer__role">Team Rocket member</p>
+            <p>One third of Team Rocket, with James and Meowth. In Alola, Mimikyu joined her because it shared her goal of defeating Pikachu. It holds a deep grudge against Pikachu and is strong enough to scare even Team Rocket.</p>
+          </div>
+          <figure class="trainer__partner"><img src="https://static.wikia.nocookie.net/pokemon/images/d/d6/Jessie_Mimikyu.png/revision/latest?cb=20170915045921" alt="Jessie&#x27;s Mimikyu" loading="lazy" /><figcaption>Jessie&#x27;s Mimikyu</figcaption></figure>
+        </article>
+    </section>
+
+    <section id="debut" class="panel">
+      <h2>First Appearances</h2>
+
+      <h3 class="sub">In the animated series</h3>
+      <div class="gallery"><figure class="shot"><img src="https://static.wikia.nocookie.net/pokemon/images/9/94/SM003_TC_JA.png/revision/latest?cb=20230509232752" alt="SM003 “Loading the Dex!”: debut of Jessie&#x27;s Mimikyu (Japanese title card)" loading="lazy" /><figcaption>SM003 “Loading the Dex!”: debut of Jessie&#x27;s Mimikyu (Japanese title card)</figcaption></figure><figure class="shot"><img src="https://static.wikia.nocookie.net/pokemon/images/2/24/Jessie_and_Mimikyu.png/revision/latest?cb=20200828195448" alt="Jessie and Mimikyu" loading="lazy" /><figcaption>Jessie and Mimikyu</figcaption></figure><figure class="shot"><img src="https://static.wikia.nocookie.net/pokemon/images/e/e8/Jessie_Mimikyu_Shadow_Claw.png/revision/latest?cb=20161124152513" alt="Mimikyu using Shadow Claw" loading="lazy" /><figcaption>Mimikyu using Shadow Claw</figcaption></figure></div>
+
+      <h3 class="sub">In the video games</h3>
+      <p class="muted">Mimikyu debuted in Generation VII. It lurks in the Thrifty Megamart, an abandoned store on Ula&#x27;ula Island.</p>
+      <div class="gallery gallery--games">
+        <figure class="boxart"><img src="https://static.wikia.nocookie.net/pokemon/images/b/b6/Pok%C3%A9mon_Sun.jpg/revision/latest?cb=20231203183408" alt="Pokémon Sun (2016)" loading="lazy" /><figcaption>Pokémon Sun (2016)</figcaption></figure><figure class="boxart"><img src="https://static.wikia.nocookie.net/pokemon/images/f/f9/Pok%C3%A9mon_Moon.jpg/revision/latest?cb=20231214143314" alt="Pokémon Moon (2016)" loading="lazy" /><figcaption>Pokémon Moon (2016)</figcaption></figure>
+        <figure class="boxart sprite"><img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/778.png" alt="In-game sprite" loading="lazy" /><figcaption>In-game sprite</figcaption></figure>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    Pokémon and all related names are trademarks of Nintendo, Game Freak and Creatures.
+    Artwork via <a href="https://pokeapi.co">PokeAPI</a> · Anime and box-art images via the
+    <a href="https://pokemon.fandom.com">Pokémon Wiki (Fandom)</a>.
+  </footer>
+
+</body>
+</html>
